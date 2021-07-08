@@ -2,7 +2,7 @@ html, body{
     scroll-behavior: smooth;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    background-color: rgba(13, 49, 253, 0.171);
+ 
     padding-top: 0px;
     margin-top: 0px;
 }
@@ -13,9 +13,7 @@ html, body{
     margin: 0px;
 }
 
-.parceiros {
-    background-color: rgba(40, 0, 116, 0.281);
-    border-radius: 10px;
+.PY-5rem { 
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -39,4 +37,22 @@ p, li {
 .link-sem-estilo, .link-sem-estilo:hover, .link-sem-estilo:link{
     text-decoration:none; 
     color: #000;
+}
+
+
+.FundoClaro{
+    background-color:#a5b274; 
+}
+
+.FundoEscuro{
+    background-color: #778448;
+}
+
+
+nav a{
+    color: black;
+}
+
+nav a:hover{
+    color: #4f5738;
 }

@@ -1,12 +1,15 @@
 .grid {
     display: grid;
-    grid-template-columns: auto 2rem auto;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
 }
 
 .grid-esquerda {
     left: 0px;
+    align-self: center;
 }
 
 .grid-direita {
     right: 0px;
+    align-self: center;
 }

@@ -1,0 +1,234 @@
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4f5738 rgba(255, 255, 255, 0);
+}
+*::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #4f5738;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-corner {
+  border-radius: 25px;
+}
+
+.RadialFade {
+  -webkit-mask-image: radial-gradient(
+    ellipse 100% 100% at 50% 50%,
+    black 40%,
+    transparent 50%
+  );
+  mask-image: radial-gradient(
+    ellipse 100% 100% at 50% 50%,
+    black 40%,
+    transparent 50%
+  );
+}
+
+.blockquote {
+  font-size: 1.25rem;
+  border-left: 0.5rem solid rgb(80 86 56 / 54%);
+  color: #f8f9fa;
+  font-style: italic;
+  line-height: 1.6;
+  max-width: 100%;
+  padding: 1.5rem 0 0.5em 3.6875rem;
+  position: relative;
+  width: 100%;
+}
+.blockquote:before {
+  font-size: 6.875rem;
+  color: rgb(80 86 56 / 54%);
+  content: "“";
+  font-family: "Noto Serif", "Georgia", "Times New Roman", "Times", serif;
+  font-size: 5.5rem;
+  height: 3.75rem;
+  left: 0.9375rem;
+  line-height: 1;
+  max-width: 3.75rem;
+  position: absolute;
+  text-align: inherit;
+  top: 0.9375rem;
+  width: 100%;
+}
+.blockquote:after {
+  content: "";
+}
+.blockquote-footer {
+  font-size: 80%;
+  color: #2d2e29;
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 1rem;
+  padding: 0;
+}
+.blockquote-footer:before {
+  content: "— ";
+}
+
+.AlinhamentoImagemCard {
+  align-self: center;
+  padding: 0 15px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 0px 5px #4f5738;
+  border-radius: 15px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 15px;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-front img {
+  border-radius: 15px;
+}
+
+.flip-card-back {
+  background-color: #fff;
+  color: #2d2e29;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back p,
+.flip-card-back li {
+  font-size: 1.2rem;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #4f5738;
+  border-color: hsl(75, 22%, 48%);
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #4f5738;
+  border-color: hsl(75, 22%, 48%);
+  filter: brightness(1.2);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #4f5738;
+  border-color: hsl(75, 22%, 48%);
+  filter: brightness(1.5);
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #4f5738;
+  border-color: hsl(75, 22%, 48%);
+  box-shadow: 0 0 0 0.2rem hsl(75, 22%, 48%);
+}
+
+.BorderRadius15 {
+  border-radius: 15px;
+}
+
+.Border5White {
+  border: 5px solid white;
+}
+
+.ImgTopo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.ImgTopo img {
+  width: 100%;
+}
+
+.ImgTopo .SmImg {
+  width: 50%;
+}
+
+/* .tab-pane ul {
+  min-height: 210px;
+  margin-top: 1rem;
+} */
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.label.bottom-right {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.label_lancamento {
+  background-color: hsl(75deg 22% 28%);
+  color: white;
+  border-radius: 0.5em 0 0 0.5em;
+  font-size: 1em;
+}
+
+.DivTabsReiki {
+  min-height: 623px;
+  max-width: 611px;
+  margin-top: 1rem;
+}
+
+.btn{
+  white-space: unset;
+}
+
+.CentroV{
+  justify-content: center;
+
+  display: flex;
+}
+
+.CentroH{
+ align-content: center;
+  display: flex;
+}

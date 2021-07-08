@@ -1,9 +1,9 @@
-.materiais {
-    background-color: rgba(70, 0, 117, 0.363);
-}
+/* .materiais {
+    background-color: #778448;
+} */
 .artigo{
     min-height: 30rem;
-    padding-bottom: 15rem;
+    padding-bottom: 5rem;
 }
 .artigo-imagem{
     max-width: 100%;
@@ -22,14 +22,14 @@
 }
 .artigo h1, .artigo h2 {
     text-align: center;
+    color: #2D2E29;
 }
 
-.border {
+.Linha {
     width: 100px;
     height: 3px;
-    background: #201f1f;
+    background: #2D2E29;
     margin: 40px auto;
-    border: 1px solid #dee2e6;
 }
 
 .atendimentos{
@@ -43,6 +43,9 @@
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 4rem;
+    padding-top: 4rem;
+    color: #2D2E29;
+    text-transform: uppercase;
 }
 
 .separador{
@@ -64,11 +67,11 @@
 }
 .autodefesa{
     background-color: black;
-    color: blanchedalmond;
+    color: #f3f3f1;
 }
 @media (max-width: 600px){
     .container- {
-        background-color: #fff;
+        background-color: #f3f3f1;
         min-height: 100%;
         width: 100%;
         padding: 0px;

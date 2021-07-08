@@ -1,18 +1,18 @@
 .rodape {
-    background-color: rgb(40, 0, 77);
     margin-bottom: 0px;
     bottom: 0px;
-    min-height: 30rem;
+    /* min-height: 30rem; */
     position: relative;
 }
 .artigo-footer{
-    min-height: 30rem;
+    /* min-height: 30rem; */
     margin-bottom: 0px;
-    padding-top: 5rem;
+    padding: 2rem 0;
 }
 
 .artigo-footer h2, .artigo-footer h3, .artigo-footer p, .artigo-footer li {
     color: #fff;
+    font-size: 2rem;
 }
 
 .barra-icone{
@@ -20,7 +20,11 @@
     justify-content: center;
 }
 .icone {
-    width: 5rem;
+    width: 3rem;
     margin-right: 2rem;
     margin-left: 2rem;
+}
+
+.icone:hover{
+    filter: brightness(1.3);
 }
