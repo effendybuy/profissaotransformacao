@@ -219,6 +219,7 @@ a:hover {
 }
 
 .DivTabsAutodefesa{
+  min-height: -webkit-min-content;
   min-height: min-content;
 }
 
@@ -235,4 +236,8 @@ a:hover {
 .CentroH{
  align-content: center;
   display: flex;
+}
+
+.LiPrecos li{
+font-size: 14px;
 }
