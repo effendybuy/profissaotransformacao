@@ -51,4 +51,7 @@
   .nav-link{
     background-color: white;
   }
-}
+
+  .nav-tabs .nav-link {
+    background-color: #4f5738;
+}}

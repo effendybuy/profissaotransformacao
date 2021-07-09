@@ -212,10 +212,14 @@ a:hover {
   font-size: 1em;
 }
 
-.DivTabsReiki {
+.DivTabsReiki, .DivTabsAutodefesa {
   min-height: 623px;
   max-width: 611px;
   margin-top: 1rem;
+}
+
+.DivTabsAutodefesa{
+  min-height: min-content;
 }
 
 .btn{
