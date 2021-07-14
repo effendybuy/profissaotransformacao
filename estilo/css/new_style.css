@@ -183,7 +183,7 @@
 }
 
 .ImgTopo .SmImg {
-  width: 50%;
+  width: 100%;
 }
 
 /* .tab-pane ul {
@@ -240,4 +240,18 @@ a:hover {
 
 .LiPrecos li{
 font-size: 14px;
+}
+
+p.Preco{
+  margin: 0;
+  height: 1rem;
+}
+.Preco span{
+  display: inline-block;
+    font-size: 0.8rem;
+    margin: 0;
+    position: relative;
+    top: -25px;
+    color: #4f5738;
+    font-weight: 700;
 }
