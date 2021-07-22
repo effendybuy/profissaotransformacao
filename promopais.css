@@ -1,0 +1,26 @@
+.ContadorVagas {
+  width: 300px;
+  height: 300px;
+  background-color: #a5b274;
+  font-size: 2.5rem;
+  display: inline-grid;
+  text-align: center;
+  margin-top: 1rem;
+  border: 2px dashed white;
+  line-height: 5rem;
+  border-radius: 15px;
+  color: white;
+}
+
+.ContadorVagas span {
+  background-color: #778448;
+  border-radius: 0 0 15px 15px;
+  font-size: 6rem;
+  line-height: 13rem;
+}
+
+@media (max-width: 320px) {
+    .ContadorVagas {
+        font-size: 2rem;
+  }
+}

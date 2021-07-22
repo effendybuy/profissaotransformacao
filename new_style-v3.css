@@ -255,3 +255,19 @@ p.Preco{
     color: #4f5738;
     font-weight: 700;
 }
+
+.LinkPromo{
+  position: relative;
+
+}
+
+.LinkPromo img{
+  box-shadow: 0px 0px 0px 5px #4f5738;
+  border-radius: 15px;
+}
+
+.LinkPromo .TextoPromo{
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+}
