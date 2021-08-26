@@ -271,3 +271,25 @@ p.Preco{
   bottom: 0;
   font-weight: bold;
 }
+
+.FrameVideo{
+  border: 10px solid white;
+  border-radius: 20px;
+}
+
+.TituloMentoria{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;;
+}
+
+.TextoMentoria{
+  text-align: justify;
+}
+
+.PagamentoMentoria{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
