@@ -47,7 +47,7 @@
     <nav class="nav nav-fixa navbar navbar-expand-lg menu-esconder"
       style="display: flex; background-color: white; color: black">
       <a class="navbar-brand" href="#inicio">
-        <img class="menu-logo" src="estilo/imagens/logo_final.png" alt="logo profissão transformação" loading="lazy" />
+        <img class="menu-logo" src="estilo/imagens/logo_final.webp" alt="logo profissão transformação" />
       </a>
       <a class="navbar-brand" href="#inicio">Profissão Transformação</a>
       <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse"
@@ -69,9 +69,9 @@
     </nav>
 
     <div class="ImgTopo">
-      <img class="d-none d-sm-block" src="estilo/imagens/header_longo_01.jpg" alt="logo profissão transformação" />
+      <img src="./estilo/imagens/header_longo_01.webp" class="d-none d-sm-block" alt="logo profissão transformação" />
 
-      <img class="d-block d-sm-none SmImg" src="estilo/imagens/header_01.jpg" alt="logo profissão transformação" />
+      <img src="./estilo/imagens/header_01.webp" class="d-block d-sm-none SmImg" alt="logo profissão transformação" />
     </div>
   </header>
 
@@ -104,22 +104,14 @@
               </p>
             </div>
             <div class="grid-direita">
-              <img class="artigo-imagem RadialFade" src="./estilo/imagens/roberto_despojado.jpg"
+              <img src="./estilo/imagens/roberto_despojado.webp" class="artigo-imagem RadialFade"
                 alt="Roberto Carlos Mundstein com logo Profissão Transformação" />
-                <div class="barra-icone">
-                  <a href="https://www.youtube.com/c/RobertoCMundstein" target="_blank"
-                  title="Canal do Youtube Roberto Mundstein" class="btn btn-primary BarraLive" >
+              <div class="barra-icone">
+                <a href="https://www.youtube.com/c/RobertoCMundstein" target="_blank"
+                  title="Canal do Youtube Roberto Mundstein" class="btn btn-primary BarraLive">
                   <i class="mdi mdi-youtube mr-2"></i>Live toda segunda às 21h15min
                 </a>
-                <!-- <a href="https://www.instagram.com/robertomundstein/" target="_blank"
-                title="Instagram Roberto mundstein" class="btn btn-primary">
-                <i class="mdi mdi-instagram mr-2"></i>Nos siga no instagram
-              </a>
-              <a href="https://www.facebook.com/profissaotransformacao/" target="_blank"
-              title="Facebook Profissão Transformação" class="btn btn-primary">
-              <i class="mdi mdi-facebook mr-2"></i>Nos siga no facebook
-            </a> -->
-                </div>
+              </div>
             </div>
           </div>
         </article>
@@ -128,7 +120,7 @@
           <div class="Linha"></div>
           <div class="grid">
             <div class="grid-esquerda">
-              <img class="artigo-imagem RadialFade" src="./estilo/imagens/roberto-escrevendo.jpg"
+              <img class="artigo-imagem RadialFade" src="./estilo/imagens/roberto-escrevendo.webp"
                 alt="Roberto Carlos Mundsteim com paramentos da OGOM" />
             </div>
             <div class="grid-direita">
@@ -160,15 +152,14 @@
 
           <div class="row">
             <div class="col-lg-8">
-              <div class="embed-responsive embed-responsive-16by9 FrameVideo">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/0HslaAlmhZ4"
-                  title="YouTube video player" frameborder="0"
+              <div class="embed-responsive embed-responsive-16by9 FrameVideo" id="player">
+                <iframe class="lazy" data-loader="iframe" data-src="https://www.youtube.com/embed/0HslaAlmhZ4" 
+                  width="560" height="315" title="YouTube video player" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
               </div>
             </div>
             <div class="col-lg-4">
-
               <h3 class="TituloMentoria">Para que serve uma mentoria?</h3>
               <p class="TextoMentoria">
                 Mentoria é uma forma de capacitar pessoas por meio do aprendizado com alguém mais experiente na
@@ -207,13 +198,13 @@
               <div class="row">
                 <div class="col-lg-6 CentroV" style="margin-top: 2rem;">
                   <a href="http://pag.ae/7XsEgH--s" target="_blank" title="Pagar Mentoria pelo PagSeguro"
-                    class="btn btn-primary"><img style="width: 50%;" src="/estilo/imagens/pagseguro_branco.svg"
+                    class="btn btn-primary"><img style="width: 50%;" src="./estilo/imagens/pagseguro_branco.svg"
                       alt=""></a>
                 </div>
                 <div class="col-lg-6 CentroV" style="margin-top: 2rem;">
                   <a href="https://nubank.com.br/pagar-cobranca/a25pr/7Hkmg0a4DH" target="_blank"
                     title="Pagar Mentoria por Pix" class="btn btn-primary">
-                    <img style="width: 40%;" src="/estilo/imagens/pix_branco.svg" alt=""></a>
+                    <img style="width: 40%;" src="./estilo/imagens/pix_branco.svg" alt=""></a>
                 </div>
               </div>
             </div>
@@ -265,13 +256,13 @@
         <h2 class="titulo-2">Materiais e cursos</h2>
 
         <div class="row">
-          
+
           <div class="col-sm-12 col-md-6 col-lg-4 pb-5">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <!-- <span class="label badge bottom-right label_lancamento">Oferta de lançamento até 22/10</span> -->
-                  <img src="./estilo/imagens/transformacao_mistica.jpg" alt="Transformação Mística"
+                  <img class="lazy" data-src="./estilo/imagens/transformacao_mistica.webp" alt="Transformação Mística"
                     style="width: 300px; height: 300px" />
                 </div>
                 <div class="flip-card-back" style="overflow: scroll">
@@ -287,9 +278,8 @@
                       <p><strong>Workshop: </strong>Dos Calundus às Umbandas</p>
                       <p><strong>Curso: </strong>Umbanda sem mimimi</p>
                     </div>
-                    <a href="https://hotmart.com/product/transformacaomistica"
-                      title="Transformação Mística" target="_blank" class="btn btn-primary"><i
-                        class="mdi mdi-open-in-new mr-2"></i>Saiba
+                    <a href="https://hotmart.com/product/transformacaomistica" title="Transformação Mística"
+                      target="_blank" class="btn btn-primary"><i class="mdi mdi-open-in-new mr-2"></i>Saiba
                       Mais</a>
                   </div>
                 </div>
@@ -302,7 +292,7 @@
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <!-- <span class="label badge bottom-right label_lancamento">Oferta de lançamento até 22/10</span> -->
-                  <img src="./estilo/imagens/autodefesa01.jpg" alt="Protocolo de Autodefesa Energética"
+                  <img class="lazy" data-src="./estilo/imagens/autodefesa01.webp" alt="Protocolo de Autodefesa Energética"
                     style="width: 300px; height: 300px" />
                 </div>
                 <div class="flip-card-back" style="overflow: scroll">
@@ -323,9 +313,8 @@
                       <!-- <p><small>Bônus: Ebook - Quatro tipos de banimento</small></p>
                       <p><small>Bônus: Ebook - Protocolo de Autodefesa Energética</small></p> -->
                     </div>
-                    <a href="https://bit.ly/lancamentoautodefesa"
-                      title="Protocolo de Autodefesa Energética" target="_blank" class="btn btn-primary"><i
-                        class="mdi mdi-open-in-new mr-2"></i>Saiba
+                    <a href="https://bit.ly/lancamentoautodefesa" title="Protocolo de Autodefesa Energética"
+                      target="_blank" class="btn btn-primary"><i class="mdi mdi-open-in-new mr-2"></i>Saiba
                       Mais</a>
                   </div>
                 </div>
@@ -337,8 +326,9 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <span class="label badge bottom-right label_lancamento">Preço especial para turmas acima de cinco pessoas.</span>
-                  <img src="./estilo/imagens/reiki_hermetista/reiki_nivel1.jpg" alt="Reiki Hermetista Nível 1"
+                  <span class="label badge bottom-right label_lancamento">Preço especial para turmas acima de cinco
+                    pessoas.</span>
+                  <img class="lazy" data-src="./estilo/imagens/reiki_hermetista/reiki_nivel1.webp" alt="Reiki Hermetista Nível 1"
                     style="width: 300px; height: 300px" />
                 </div>
                 <div class="flip-card-back" style="overflow: scroll">
@@ -354,10 +344,10 @@
                     <!-- <a href="https://www.sympla.com.br/reiki-hermetista---nivel-1---shoden-o-despertar-para-a-magia__1353154"
                       target="_blank" title="Reiki Hermetista Nível 1 - Shoden - O Despertar para Magia"
                       class="btn btn-primary"><i class="mdi mdi-open-in-new mr-2"></i>Saiba Mais</a> -->
-                      <a href="https://web.whatsapp.com/send?phone=5524981225434" target="_blank"
-                  title="Enviar mensagem pelo Whatsapp" class="btn btn-primary">
-                  <i class="mdi mdi-whatsapp mr-2"></i>Enviar mensagem
-                </a>
+                    <a href="https://web.whatsapp.com/send?phone=5524981225434" target="_blank"
+                      title="Enviar mensagem pelo Whatsapp" class="btn btn-primary">
+                      <i class="mdi mdi-whatsapp mr-2"></i>Enviar mensagem
+                    </a>
                   </div>
                 </div>
               </div>
@@ -368,8 +358,9 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <span class="label badge bottom-right label_lancamento">Preço especial para turmas acima de cinco pessoas.</span>
-                  <img src="./estilo/imagens/reiki_hermetista/reiki_nivel2.jpg"
+                  <span class="label badge bottom-right label_lancamento">Preço especial para turmas acima de cinco
+                    pessoas.</span>
+                  <img class="lazy" data-src="./estilo/imagens/reiki_hermetista/reiki_nivel2.webp"
                     alt="Reiki Hermetista Nível 2 - Okuden - A Transformação Mágicka"
                     style="width: 300px; height: 300px" />
                 </div>
@@ -383,10 +374,10 @@
                       <p><strong>Carga Horária: </strong>4h30min</p>
                       <p class="Preco"><span>Videoconferência via Zoom</span></p>
                     </div>
-                        <a href="https://web.whatsapp.com/send?phone=5524981225434" target="_blank"
-                  title="Enviar mensagem pelo Whatsapp" class="btn btn-primary">
-                  <i class="mdi mdi-whatsapp mr-2"></i>Enviar mensagem
-                </a>
+                    <a href="https://web.whatsapp.com/send?phone=5524981225434" target="_blank"
+                      title="Enviar mensagem pelo Whatsapp" class="btn btn-primary">
+                      <i class="mdi mdi-whatsapp mr-2"></i>Enviar mensagem
+                    </a>
                   </div>
                 </div>
               </div>
@@ -397,8 +388,9 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <span class="label badge bottom-right label_lancamento">Preço especial para turmas acima de cinco pessoas.</span>
-                  <img src="./estilo/imagens/reiki_hermetista/reiki_nivel3a.jpg" alt="Reiki Hermetista Nível 3A"
+                  <span class="label badge bottom-right label_lancamento">Preço especial para turmas acima de cinco
+                    pessoas.</span>
+                  <img class="lazy" data-src="./estilo/imagens/reiki_hermetista/reiki_nivel3a.webp" alt="Reiki Hermetista Nível 3A"
                     style="width: 300px; height: 300px" />
                 </div>
                 <div class="flip-card-back" style="overflow: scroll">
@@ -412,9 +404,9 @@
                       <p class="Preco"><span>Videoconferência via Zoom</span></p>
                     </div>
                     <a href="https://web.whatsapp.com/send?phone=5524981225434" target="_blank"
-                  title="Enviar mensagem pelo Whatsapp" class="btn btn-primary">
-                  <i class="mdi mdi-whatsapp mr-2"></i>Enviar mensagem
-                </a>
+                      title="Enviar mensagem pelo Whatsapp" class="btn btn-primary">
+                      <i class="mdi mdi-whatsapp mr-2"></i>Enviar mensagem
+                    </a>
                   </div>
                 </div>
               </div>
@@ -425,8 +417,9 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <span class="label badge bottom-right label_lancamento">Preço especial para turmas acima de cinco pessoas.</span>
-                  <img src="./estilo/imagens/reiki_hermetista/reiki_nivel3b.jpg" alt="Reiki Hermetista Nível 3B"
+                  <span class="label badge bottom-right label_lancamento">Preço especial para turmas acima de cinco
+                    pessoas.</span>
+                  <img class="lazy" data-src="./estilo/imagens/reiki_hermetista/reiki_nivel3b.webp" alt="Reiki Hermetista Nível 3B"
                     style="width: 300px; height: 300px" />
                 </div>
                 <div class="flip-card-back" style="overflow: scroll">
@@ -440,9 +433,9 @@
                       <p class="Preco"><span>Videoconferência via Zoom</span></p>
                     </div>
                     <a href="https://web.whatsapp.com/send?phone=5524981225434" target="_blank"
-                  title="Enviar mensagem pelo Whatsapp" class="btn btn-primary">
-                  <i class="mdi mdi-whatsapp mr-2"></i>Enviar mensagem
-                </a>
+                      title="Enviar mensagem pelo Whatsapp" class="btn btn-primary">
+                      <i class="mdi mdi-whatsapp mr-2"></i>Enviar mensagem
+                    </a>
                   </div>
                 </div>
               </div>
@@ -454,7 +447,7 @@
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <!-- <span class="label badge bottom-right label_lancamento">Inscrições até 09/07</span> -->
-                  <img src="./estilo/imagens/reikianimal.png" alt="Curso - Reiki para animais - Especialização"
+                  <img class="lazy" data-src="./estilo/imagens/reikianimal.png" alt="Curso - Reiki para animais - Especialização"
                     style="width: 300px; height: 300px" />
                 </div>
                 <div class="flip-card-back" style="overflow: scroll">
@@ -482,7 +475,7 @@
             <div class="flip-card BorderRadius15">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="./estilo/imagens/cincopassos.jpg" alt="Apostila - Cinco Passos Rumo a transformação"
+                  <img class="lazy" data-src="./estilo/imagens/cincopassos.webp" alt="Apostila - Cinco Passos Rumo a transformação"
                     style="width: 300px; height: 300px" />
                 </div>
                 <div class="flip-card-back" style="overflow: scroll">
@@ -509,7 +502,7 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="./estilo/imagens/significado-das-cores-na-cromoterapia_21124_l.jpg"
+                  <img class="lazy" data-src="./estilo/imagens/significado-das-cores-na-cromoterapia_21124_l.webp"
                     alt="Curso - Cromoterapia" style="width: 300px; height: 300px" />
                 </div>
                 <div class="flip-card-back" style="overflow: scroll">
@@ -542,7 +535,7 @@
           <div class="Linha"></div>
           <div class="card-group p-4">
             <div class="card mx-2">
-              <img class="card-img-top" src="./estilo/imagens/Roberto.jpg" alt="Roberto Carlos Mundstein" />
+              <img class="card-img-top lazy" data-src="./estilo/imagens/Roberto.webp" alt="Roberto Carlos Mundstein" />
               <div class="card-body">
                 <p class="card-text">
                   Magista, Mestre de Reiki, Cromoterapeuta, Numerólogo,
@@ -573,7 +566,7 @@
             </div>
 
             <div class="card mx-2">
-              <img class="card-img-top" src="./estilo/imagens/sueli.jpg" alt="Sueli Mundstein" />
+              <img class="card-img-top lazy" data-src="./estilo/imagens/sueli.webp" alt="Sueli Mundstein" />
               <div class="card-body">
                 <p class="card-text">
                   Cromoterapia, Shiatsu, Massoterapia, Reflexologia,
@@ -592,7 +585,7 @@
 
           <div class="card-group p-4">
             <div class="card mx-2">
-              <img class="card-img-top" src="./estilo/imagens/vinicius.jpg" alt="Vinícius" />
+              <img class="card-img-top lazy" data-src="./estilo/imagens/vinicius.webp" alt="Vinícius" />
               <div class="card-body">
                 <p class="card-text">Mestre Reiki e Iniciado da OGOM</p>
               </div>
@@ -605,7 +598,7 @@
             </div>
 
             <div class="card mx-2">
-              <img class="card-img-top" src="./estilo/imagens/alberto.jpg" alt="Alberto" />
+              <img class="card-img-top lazy" data-src="./estilo/imagens/alberto.webp" alt="Alberto" />
               <div class="card-body">
                 <p class="card-text">Magista e Terapeuta Reiki</p>
               </div>
@@ -630,8 +623,8 @@
           <div class="row pb-3">
             <div class="col-sm-12 col-md-6 pb-3">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" width="560" height="315"
-                  src="https://www.youtube.com/embed/26cn50JtuGw" title="Vídeo Emoções x Sentimentos - O Medo"
+                <iframe class="embed-responsive-item lazy" width="560" height="315"
+               data-loader="iframe" data-src="https://www.youtube.com/embed/26cn50JtuGw" title="Vídeo Emoções x Sentimentos - O Medo"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
@@ -639,8 +632,8 @@
             </div>
             <div class="col-sm-12 col-md-6 pb-3">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" width="560" height="315"
-                  src="https://www.youtube.com/embed/VPeIAdB5AQg" title="Vídeo Exotérico x Esotérico" frameborder="0"
+                <iframe class="embed-responsive-item lazy" width="560" height="315"
+                data-loader="iframe" data-src="https://www.youtube.com/embed/VPeIAdB5AQg" title="Vídeo Exotérico x Esotérico" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
               </div>
@@ -650,8 +643,8 @@
           <div class="row pb-3">
             <div class="col-sm-12 col-md-6 pb-3">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" width="560" height="315"
-                  src="https://www.youtube.com/embed/hRAE3VXRtJU"
+                <iframe class="embed-responsive-item lazy" width="560" height="315"
+                data-loader="iframe" data-src="https://www.youtube.com/embed/hRAE3VXRtJU"
                   title="Vídeo L21 - É possível aprender Autodefesa Energética e Espiritual" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
@@ -659,8 +652,8 @@
             </div>
             <div class="col-sm-12 col-md-6 pb-3">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" width="560" height="315"
-                  src="https://www.youtube.com/embed/z2uq1Os17sc"
+                <iframe class="embed-responsive-item lazy" width="560" height="315"
+                data-loader="iframe" data-src="https://www.youtube.com/embed/z2uq1Os17sc"
                   title="Vídeo L21 - A relevância do tarot na Magia - feat com CDH, Bruno Lanaro e Leo Lousada do Conhecimentos da Humanidade"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -697,7 +690,14 @@
   <script src="./estilo/js/bootstrap.min.js"></script>
   <script src="./estilo/js/nav-v1.js"></script>
 
-  <script type="text/javascript">
+  <script type="text/javascript" src="./estilo/js/jquery.lazy.min.js"></script>
+  <script type="text/javascript" src="./estilo/js/jquery.lazy.plugins.min.js"></script>
+  <script type="text/javascript"> $(function () {
+      $('.lazy').Lazy({ effect: 'fadeIn', });
+
+    });</script>
+
+  <script defer type="text/javascript">
     $('a[href*="#"]')
       // Remove links that don't actually link to anything
       .not('[href="#"]')

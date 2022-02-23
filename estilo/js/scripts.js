@@ -72,3 +72,8 @@ $(document).ready(function() {
         hoverEnabled: false
     });
 });
+
+
+$('img').Lazy({
+    attribute: 'data-src'
+});
