@@ -3,5 +3,5 @@
 @import "./estilo/css/grid-v1.css";
 @import "./estilo/css/pagina-v1.css";
 @import "./estilo/css/rodape-v1.css";
-@import "./estilo/css/materialdesignicons.min.css";
+@import "https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css";
 /* @import "./estilo/css/new_style.css"; */
